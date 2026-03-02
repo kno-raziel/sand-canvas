@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "target": "ES2022",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@sand/core": ["../core/src"],
+      "@sand/core/*": ["../core/src/*"]
+    }
+  },
+  "include": ["src"]
+}

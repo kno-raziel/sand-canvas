@@ -1,0 +1,3651 @@
+{
+  "version": 1,
+  "name": "coffee-landing",
+  "width": 1440,
+  "height": 900,
+  "children": [
+    {
+      "type": "frame",
+      "name": "Brew and Bean Landing Page",
+      "width": 1440,
+      "height": 3400,
+      "fill": "$bg_page",
+      "layout": "vertical",
+      "id": "3a2f3508",
+      "children": [
+        {
+          "type": "frame",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "$bg_dark",
+          "layout": "horizontal",
+          "padding": [
+            0,
+            48,
+            0,
+            48
+          ],
+          "alignItems": "center",
+          "justifyContent": "space-between",
+          "id": "c1b3a8fa",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "gap": 8,
+              "alignItems": "center",
+              "id": "6991ac93",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Brew and Bean",
+                  "fontSize": 22,
+                  "fontWeight": 700,
+                  "color": "$bg_accent",
+                  "id": "8244a356"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "gap": 32,
+              "alignItems": "center",
+              "id": "9ef8e72a",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Home",
+                  "fontSize": 14,
+                  "fontWeight": 600,
+                  "color": "#ffffff",
+                  "id": "cc8a66a1"
+                },
+                {
+                  "type": "text",
+                  "content": "Menu",
+                  "fontSize": 14,
+                  "fontWeight": 500,
+                  "color": "$text_muted",
+                  "id": "0f26f48e"
+                },
+                {
+                  "type": "text",
+                  "content": "About",
+                  "fontSize": 14,
+                  "fontWeight": 500,
+                  "color": "$text_muted",
+                  "id": "84243764"
+                },
+                {
+                  "type": "text",
+                  "content": "Locations",
+                  "fontSize": 14,
+                  "fontWeight": 500,
+                  "color": "$text_muted",
+                  "id": "4b47d7df"
+                },
+                {
+                  "type": "text",
+                  "content": "Contact",
+                  "fontSize": 14,
+                  "fontWeight": 500,
+                  "color": "$text_muted",
+                  "id": "b62e953f"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "gap": 12,
+              "alignItems": "center",
+              "id": "d3c3f779",
+              "children": [
+                {
+                  "type": "frame",
+                  "fill": "$bg_accent",
+                  "cornerRadius": 8,
+                  "padding": [
+                    10,
+                    24,
+                    10,
+                    24
+                  ],
+                  "id": "a397c4a8",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Order Now",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "color": "$text_heading",
+                      "id": "cacd0cfc"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "height": 680,
+          "fill": "$bg_hero",
+          "layout": "horizontal",
+          "padding": [
+            0,
+            80,
+            0,
+            80
+          ],
+          "alignItems": "center",
+          "justifyContent": "space-between",
+          "id": "2272a8f2",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "gap": 24,
+              "width": 600,
+              "id": "8a3ba2a0",
+              "children": [
+                {
+                  "type": "frame",
+                  "fill": "$bg_card_inner",
+                  "cornerRadius": 20,
+                  "padding": [
+                    6,
+                    16,
+                    6,
+                    16
+                  ],
+                  "width": 220,
+                  "id": "384339c9",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Specialty Coffee Since 2019",
+                      "fontSize": 12,
+                      "fontWeight": 600,
+                      "color": "$bg_accent",
+                      "id": "8c94c6f3"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": "Crafted with\nPassion, Served\nwith Love",
+                  "fontSize": 64,
+                  "fontWeight": 800,
+                  "color": "$text_light",
+                  "lineHeight": 1.1,
+                  "id": "ba8b2440"
+                },
+                {
+                  "type": "text",
+                  "content": "Experience the finest single-origin beans, expertly roasted and brewed to perfection. Every cup tells a story of dedication and craftsmanship.",
+                  "fontSize": 18,
+                  "color": "$text_muted",
+                  "lineHeight": 1.6,
+                  "width": 520,
+                  "id": "01e6f9ab"
+                },
+                {
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "id": "8a7cc17f",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "fill": "$bg_accent",
+                      "cornerRadius": 12,
+                      "padding": [
+                        16,
+                        32,
+                        16,
+                        32
+                      ],
+                      "id": "ffed6c59",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Explore Our Menu",
+                          "fontSize": 16,
+                          "fontWeight": 700,
+                          "color": "$text_heading",
+                          "id": "31e0e28d"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "fill": "transparent",
+                      "cornerRadius": 12,
+                      "padding": [
+                        14,
+                        30,
+                        14,
+                        30
+                      ],
+                      "stroke": "#d4a574",
+                      "strokeWidth": 2,
+                      "id": "ca654506",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Find a Location",
+                          "fontSize": 16,
+                          "fontWeight": 600,
+                          "color": "$bg_accent",
+                          "id": "ccc18758"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": 500,
+              "height": 500,
+              "cornerRadius": 24,
+              "fill": "$bg_card_inner",
+              "id": "365f4749",
+              "imageFill": {
+                "src": "/images/hero-latte.png",
+                "objectFit": "cover"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Stats Bar",
+          "width": "fill_container",
+          "height": 120,
+          "fill": "$bg_accent",
+          "layout": "horizontal",
+          "padding": [
+            0,
+            80,
+            0,
+            80
+          ],
+          "alignItems": "center",
+          "justifyContent": "space-around",
+          "id": "60575262",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 4,
+              "id": "a00fe4c6",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "15+",
+                  "fontSize": 36,
+                  "fontWeight": 800,
+                  "color": "$text_heading",
+                  "id": "e24178ec"
+                },
+                {
+                  "type": "text",
+                  "content": "Coffee Origins",
+                  "fontSize": 14,
+                  "fontWeight": 500,
+                  "color": "$text_heading",
+                  "id": "73bc91f9"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 4,
+              "id": "5d439b90",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "50K+",
+                  "fontSize": 36,
+                  "fontWeight": 800,
+                  "color": "$text_heading",
+                  "id": "bfcc9920"
+                },
+                {
+                  "type": "text",
+                  "content": "Happy Customers",
+                  "fontSize": 14,
+                  "fontWeight": 500,
+                  "color": "$text_heading",
+                  "id": "faceb7d6"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 4,
+              "id": "6a18bd4e",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "8",
+                  "fontSize": 36,
+                  "fontWeight": 800,
+                  "color": "$text_heading",
+                  "id": "1862e589"
+                },
+                {
+                  "type": "text",
+                  "content": "Locations",
+                  "fontSize": 14,
+                  "fontWeight": 500,
+                  "color": "$text_heading",
+                  "id": "84a0264d"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 4,
+              "id": "98fbf642",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "4.9",
+                  "fontSize": 36,
+                  "fontWeight": 800,
+                  "color": "$text_heading",
+                  "id": "63de6916"
+                },
+                {
+                  "type": "text",
+                  "content": "Average Rating",
+                  "fontSize": 14,
+                  "fontWeight": 500,
+                  "color": "$text_heading",
+                  "id": "5247a9e7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "About Section",
+          "width": "fill_container",
+          "layout": "horizontal",
+          "padding": [
+            80,
+            80,
+            80,
+            80
+          ],
+          "alignItems": "center",
+          "gap": 64,
+          "fill": "$bg_page",
+          "id": "c9e18e6f",
+          "children": [
+            {
+              "type": "frame",
+              "width": 520,
+              "height": 480,
+              "cornerRadius": 16,
+              "fill": "#e8ddd0",
+              "id": "d3e3d6aa",
+              "imageFill": {
+                "src": "/images/barista-cafe.png",
+                "objectFit": "cover"
+              }
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "gap": 24,
+              "width": 600,
+              "id": "8ea0db98",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "OUR STORY",
+                  "fontSize": 13,
+                  "fontWeight": 700,
+                  "color": "$bg_accent",
+                  "letterSpacing": 3,
+                  "id": "246f5cac"
+                },
+                {
+                  "type": "text",
+                  "content": "Where Every Bean\nHas a Story",
+                  "fontSize": 44,
+                  "fontWeight": 800,
+                  "color": "$text_heading",
+                  "lineHeight": 1.15,
+                  "id": "98c20d7c"
+                },
+                {
+                  "type": "text",
+                  "content": "Founded in 2019, Brew and Bean started as a small passion project in downtown. Today we source beans directly from farmers in Colombia, Ethiopia, and Guatemala, ensuring fair trade and exceptional quality in every cup.",
+                  "fontSize": 16,
+                  "color": "$text_body",
+                  "lineHeight": 1.7,
+                  "width": 520,
+                  "id": "74d1ea2b"
+                },
+                {
+                  "type": "text",
+                  "content": "Our roasters are artists, our baristas are scientists, and our community is family. Come experience coffee the way it was meant to be.",
+                  "fontSize": 16,
+                  "color": "$text_body",
+                  "lineHeight": 1.7,
+                  "width": 520,
+                  "id": "496ea45f"
+                },
+                {
+                  "type": "frame",
+                  "fill": "$bg_dark",
+                  "cornerRadius": 12,
+                  "padding": [
+                    14,
+                    28,
+                    14,
+                    28
+                  ],
+                  "width": 180,
+                  "id": "7b5deccc",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Learn More",
+                      "fontSize": 15,
+                      "fontWeight": 600,
+                      "color": "$bg_accent",
+                      "id": "1e5dfba3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Menu Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            80,
+            80,
+            80,
+            80
+          ],
+          "gap": 48,
+          "fill": "$bg_dark",
+          "id": "5aa594d7",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 12,
+              "id": "c5acef8e",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "POPULAR PICKS",
+                  "fontSize": 13,
+                  "fontWeight": 700,
+                  "color": "$bg_accent",
+                  "letterSpacing": 3,
+                  "id": "889610fd"
+                },
+                {
+                  "type": "text",
+                  "content": "Our Signature Drinks",
+                  "fontSize": 44,
+                  "fontWeight": 800,
+                  "color": "$text_light",
+                  "id": "da7273af"
+                },
+                {
+                  "type": "text",
+                  "content": "Handcrafted beverages made with love and the finest ingredients",
+                  "fontSize": 16,
+                  "color": "$text_muted",
+                  "id": "c68b8246"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "gap": 24,
+              "justifyContent": "center",
+              "alignItems": "start",
+              "id": "d99bf964",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 380,
+                  "layout": "vertical",
+                  "cornerRadius": 16,
+                  "fill": "$bg_hero",
+                  "overflow": "hidden",
+                  "id": "041d0eb5",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "$bg_card_inner",
+                      "id": "3be1e556",
+                      "imageFill": {
+                        "src": "/images/caramel-latte.png",
+                        "objectFit": "cover"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "vertical",
+                      "padding": 24,
+                      "gap": 12,
+                      "width": "fill_container",
+                      "id": "f4d9bc24",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "fill": "$bg_accent",
+                          "cornerRadius": 12,
+                          "padding": [
+                            4,
+                            12,
+                            4,
+                            12
+                          ],
+                          "width": 80,
+                          "id": "aabe5533",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "Popular",
+                              "fontSize": 11,
+                              "fontWeight": 700,
+                              "color": "$text_heading",
+                              "id": "ae55fb09"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "content": "Caramel Cloud Latte",
+                          "fontSize": 22,
+                          "fontWeight": 700,
+                          "color": "$text_light",
+                          "id": "01aeb728"
+                        },
+                        {
+                          "type": "text",
+                          "content": "Velvety espresso with house-made caramel and cold foam cloud topping",
+                          "fontSize": 14,
+                          "color": "$text_muted",
+                          "lineHeight": 1.5,
+                          "id": "91306610"
+                        },
+                        {
+                          "type": "frame",
+                          "layout": "horizontal",
+                          "justifyContent": "space-between",
+                          "alignItems": "center",
+                          "width": "fill_container",
+                          "id": "ba8b8b5f",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "$6.50",
+                              "fontSize": 24,
+                              "fontWeight": 800,
+                              "color": "$bg_accent",
+                              "id": "404ef0cf"
+                            },
+                            {
+                              "type": "frame",
+                              "fill": "$bg_accent",
+                              "cornerRadius": 8,
+                              "padding": [
+                                8,
+                                20,
+                                8,
+                                20
+                              ],
+                              "id": "7f663167",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "content": "Add to Cart",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "$text_heading",
+                                  "id": "1f29925f"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": 380,
+                  "layout": "vertical",
+                  "cornerRadius": 16,
+                  "fill": "$bg_hero",
+                  "overflow": "hidden",
+                  "id": "9b7d3fd3",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "$bg_card_inner",
+                      "id": "fa3f3872",
+                      "imageFill": {
+                        "src": "/images/matcha-latte.png",
+                        "objectFit": "cover"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "vertical",
+                      "padding": 24,
+                      "gap": 12,
+                      "width": "fill_container",
+                      "id": "d7c7abed",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "fill": "#4ade80",
+                          "cornerRadius": 12,
+                          "padding": [
+                            4,
+                            12,
+                            4,
+                            12
+                          ],
+                          "width": 50,
+                          "id": "ae823f3d",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "New",
+                              "fontSize": 11,
+                              "fontWeight": 700,
+                              "color": "$text_heading",
+                              "id": "5ed18b2e"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "content": "Oat Milk Matcha",
+                          "fontSize": 22,
+                          "fontWeight": 700,
+                          "color": "$text_light",
+                          "id": "83319e48"
+                        },
+                        {
+                          "type": "text",
+                          "content": "Ceremonial-grade matcha whisked with creamy oat milk and a touch of vanilla",
+                          "fontSize": 14,
+                          "color": "$text_muted",
+                          "lineHeight": 1.5,
+                          "id": "cfd55022"
+                        },
+                        {
+                          "type": "frame",
+                          "layout": "horizontal",
+                          "justifyContent": "space-between",
+                          "alignItems": "center",
+                          "width": "fill_container",
+                          "id": "8e9e825f",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "$5.75",
+                              "fontSize": 24,
+                              "fontWeight": 800,
+                              "color": "$bg_accent",
+                              "id": "57912576"
+                            },
+                            {
+                              "type": "frame",
+                              "fill": "$bg_accent",
+                              "cornerRadius": 8,
+                              "padding": [
+                                8,
+                                20,
+                                8,
+                                20
+                              ],
+                              "id": "e2ca9a42",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "content": "Add to Cart",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "$text_heading",
+                                  "id": "f11bc95f"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": 380,
+                  "layout": "vertical",
+                  "cornerRadius": 16,
+                  "fill": "$bg_hero",
+                  "overflow": "hidden",
+                  "id": "3d41426c",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "$bg_card_inner",
+                      "id": "3fd438f8",
+                      "imageFill": {
+                        "src": "/images/cold-brew.png",
+                        "objectFit": "cover"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "vertical",
+                      "padding": 24,
+                      "gap": 12,
+                      "width": "fill_container",
+                      "id": "d153a621",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Nitro Cold Brew",
+                          "fontSize": 22,
+                          "fontWeight": 700,
+                          "color": "$text_light",
+                          "id": "8f78d3ea"
+                        },
+                        {
+                          "type": "text",
+                          "content": "Silky-smooth cold brew infused with nitrogen for a creamy, naturally sweet finish",
+                          "fontSize": 14,
+                          "color": "$text_muted",
+                          "lineHeight": 1.5,
+                          "id": "59fb977f"
+                        },
+                        {
+                          "type": "frame",
+                          "layout": "horizontal",
+                          "justifyContent": "space-between",
+                          "alignItems": "center",
+                          "width": "fill_container",
+                          "id": "4580af27",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "$5.25",
+                              "fontSize": 24,
+                              "fontWeight": 800,
+                              "color": "$bg_accent",
+                              "id": "bfcb4eb2"
+                            },
+                            {
+                              "type": "frame",
+                              "fill": "$bg_accent",
+                              "cornerRadius": 8,
+                              "padding": [
+                                8,
+                                20,
+                                8,
+                                20
+                              ],
+                              "id": "cf179145",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "content": "Add to Cart",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "$text_heading",
+                                  "id": "7f76572b"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Testimonials",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            80,
+            80,
+            80,
+            80
+          ],
+          "gap": 48,
+          "fill": "$bg_page",
+          "id": "74b606e0",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 12,
+              "id": "17558e40",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "WHAT PEOPLE SAY",
+                  "fontSize": 13,
+                  "fontWeight": 700,
+                  "color": "$bg_accent",
+                  "letterSpacing": 3,
+                  "id": "0b779478"
+                },
+                {
+                  "type": "text",
+                  "content": "Loved by Coffee Enthusiasts",
+                  "fontSize": 44,
+                  "fontWeight": 800,
+                  "color": "$text_heading",
+                  "id": "c98e1bd0"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "gap": 24,
+              "justifyContent": "center",
+              "id": "bc307c80",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 400,
+                  "layout": "vertical",
+                  "cornerRadius": 16,
+                  "fill": "#ffffff",
+                  "padding": 32,
+                  "gap": 20,
+                  "stroke": "$border_subtle",
+                  "strokeWidth": 1,
+                  "id": "e89d43ce",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "★★★★★",
+                      "fontSize": 20,
+                      "color": "#f59e0b",
+                      "id": "c80c9299"
+                    },
+                    {
+                      "type": "text",
+                      "content": "The best coffee I have ever had. Their caramel latte is absolutely divine. The atmosphere is cozy and the staff is incredibly friendly.",
+                      "fontSize": 15,
+                      "color": "$text_body",
+                      "lineHeight": 1.6,
+                      "id": "34f39e9a"
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "id": "13ce7daf",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "width": 44,
+                          "height": 44,
+                          "cornerRadius": 22,
+                          "fill": "$bg_accent",
+                          "id": "88d990d0",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "SM",
+                              "fontSize": 14,
+                              "fontWeight": 700,
+                              "color": "$text_heading",
+                              "id": "d3b7d5ad"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "id": "2af61a08",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "Sarah Mitchell",
+                              "fontSize": 15,
+                              "fontWeight": 700,
+                              "color": "$text_heading",
+                              "id": "a577d9e1"
+                            },
+                            {
+                              "type": "text",
+                              "content": "Regular Customer",
+                              "fontSize": 13,
+                              "color": "$text_muted",
+                              "id": "d89a4563"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": 400,
+                  "layout": "vertical",
+                  "cornerRadius": 16,
+                  "fill": "#ffffff",
+                  "padding": 32,
+                  "gap": 20,
+                  "stroke": "$border_subtle",
+                  "strokeWidth": 1,
+                  "id": "1a3ae6be",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "★★★★★",
+                      "fontSize": 20,
+                      "color": "#f59e0b",
+                      "id": "7ba4681b"
+                    },
+                    {
+                      "type": "text",
+                      "content": "I have tried coffee shops all over the city and nothing compares. The single-origin pour over is incredibly smooth. Worth every penny.",
+                      "fontSize": 15,
+                      "color": "$text_body",
+                      "lineHeight": 1.6,
+                      "id": "111d59b4"
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "id": "6fad8b8d",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "width": 44,
+                          "height": 44,
+                          "cornerRadius": 22,
+                          "fill": "$bg_card_inner",
+                          "id": "c3d8590e",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "JC",
+                              "fontSize": 14,
+                              "fontWeight": 700,
+                              "color": "$bg_accent",
+                              "id": "2b81708d"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "id": "f18173bf",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "James Chen",
+                              "fontSize": 15,
+                              "fontWeight": 700,
+                              "color": "$text_heading",
+                              "id": "78518f89"
+                            },
+                            {
+                              "type": "text",
+                              "content": "Coffee Enthusiast",
+                              "fontSize": 13,
+                              "color": "$text_muted",
+                              "id": "3211263f"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": 400,
+                  "layout": "vertical",
+                  "cornerRadius": 16,
+                  "fill": "#ffffff",
+                  "padding": 32,
+                  "gap": 20,
+                  "stroke": "$border_subtle",
+                  "strokeWidth": 1,
+                  "id": "c9dc1267",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "★★★★★",
+                      "fontSize": 20,
+                      "color": "#f59e0b",
+                      "id": "2a264d02"
+                    },
+                    {
+                      "type": "text",
+                      "content": "The vibe here is unmatched. Great music, great coffee, great people. My go-to spot for remote work. Their pastries are amazing too!",
+                      "fontSize": 15,
+                      "color": "$text_body",
+                      "lineHeight": 1.6,
+                      "id": "71387dff"
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "id": "0e60dc0b",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "width": 44,
+                          "height": 44,
+                          "cornerRadius": 22,
+                          "fill": "#8b5e3c",
+                          "id": "3e1ca191",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "ER",
+                              "fontSize": 14,
+                              "fontWeight": 700,
+                              "color": "$text_light",
+                              "id": "884c7b2a"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "id": "28a1e1c3",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "Elena Rodriguez",
+                              "fontSize": 15,
+                              "fontWeight": 700,
+                              "color": "$text_heading",
+                              "id": "1da0335d"
+                            },
+                            {
+                              "type": "text",
+                              "content": "Remote Worker",
+                              "fontSize": 13,
+                              "color": "$text_muted",
+                              "id": "c05ed459"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "CTA Banner",
+          "width": "fill_container",
+          "height": 400,
+          "fill": "$bg_hero",
+          "layout": "horizontal",
+          "padding": [
+            0,
+            80,
+            0,
+            80
+          ],
+          "alignItems": "center",
+          "justifyContent": "space-between",
+          "id": "1c5be283",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "gap": 20,
+              "width": 600,
+              "id": "35f13e58",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Ready to Taste\nthe Difference?",
+                  "fontSize": 48,
+                  "fontWeight": 800,
+                  "color": "$text_light",
+                  "lineHeight": 1.15,
+                  "id": "b4aff0ea"
+                },
+                {
+                  "type": "text",
+                  "content": "Join our loyalty program and get your first drink free. Plus earn points with every purchase.",
+                  "fontSize": 17,
+                  "color": "$text_muted",
+                  "lineHeight": 1.6,
+                  "width": 480,
+                  "id": "79c38aa8"
+                },
+                {
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "id": "291cac48",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "fill": "$bg_accent",
+                      "cornerRadius": 12,
+                      "padding": [
+                        16,
+                        32,
+                        16,
+                        32
+                      ],
+                      "id": "5f2a71b8",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Join Now — Its Free",
+                          "fontSize": 16,
+                          "fontWeight": 700,
+                          "color": "$text_heading",
+                          "id": "8db6c9a6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "fill": "transparent",
+                      "cornerRadius": 12,
+                      "padding": [
+                        14,
+                        28,
+                        14,
+                        28
+                      ],
+                      "stroke": "#d4a574",
+                      "strokeWidth": 2,
+                      "id": "115e9991",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Download App",
+                          "fontSize": 16,
+                          "fontWeight": 600,
+                          "color": "$bg_accent",
+                          "id": "6b85712f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": 360,
+              "height": 320,
+              "cornerRadius": 20,
+              "fill": "$bg_card_inner",
+              "id": "058e11a7",
+              "imageFill": {
+                "src": "/images/coffee-beans.png",
+                "objectFit": "cover"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$bg_footer",
+          "layout": "vertical",
+          "padding": [
+            64,
+            80,
+            40,
+            80
+          ],
+          "gap": 48,
+          "id": "30d5a603",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "justifyContent": "space-between",
+              "width": "fill_container",
+              "id": "4bddd533",
+              "children": [
+                {
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "width": 320,
+                  "id": "a3822418",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Brew and Bean",
+                      "fontSize": 24,
+                      "fontWeight": 800,
+                      "color": "$bg_accent",
+                      "id": "53ce79ff"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Crafting exceptional coffee experiences since 2019. Ethically sourced, lovingly brewed.",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "lineHeight": 1.6,
+                      "id": "e0ae4397"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "id": "d69caf22",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Quick Links",
+                      "fontSize": 15,
+                      "fontWeight": 700,
+                      "color": "$text_light",
+                      "id": "3fc6d99a"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Home",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "804e0046"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Our Menu",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "d6c958d4"
+                    },
+                    {
+                      "type": "text",
+                      "content": "About Us",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "2c1270ab"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Careers",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "62aa0bd3"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "id": "a915ddeb",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Locations",
+                      "fontSize": 15,
+                      "fontWeight": 700,
+                      "color": "$text_light",
+                      "id": "8696575d"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Downtown",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "b7e2e988"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Midtown",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "d8bacbdb"
+                    },
+                    {
+                      "type": "text",
+                      "content": "West Side",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "ffa97a45"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Airport",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "8e3e6b2e"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "id": "6ab1284b",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Contact",
+                      "fontSize": 15,
+                      "fontWeight": 700,
+                      "color": "$text_light",
+                      "id": "c2c9790c"
+                    },
+                    {
+                      "type": "text",
+                      "content": "hello@brewandbean.com",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "eb9ffa7b"
+                    },
+                    {
+                      "type": "text",
+                      "content": "+1 (555) 123-4567",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "58254833"
+                    },
+                    {
+                      "type": "text",
+                      "content": "123 Coffee Street",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "4b6a3a2f"
+                    },
+                    {
+                      "type": "text",
+                      "content": "New York, NY 10001",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "id": "fe1d6d37"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$bg_hero",
+              "id": "1b061745"
+            },
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "justifyContent": "space-between",
+              "width": "fill_container",
+              "alignItems": "center",
+              "id": "1e0570c9",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "2025 Brew and Bean. All rights reserved.",
+                  "fontSize": 13,
+                  "color": "$footer_text",
+                  "id": "23212ccc"
+                },
+                {
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "id": "92e5010a",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Instagram",
+                      "fontSize": 13,
+                      "color": "$text_body",
+                      "id": "c6b0c90d"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Twitter",
+                      "fontSize": 13,
+                      "color": "$text_body",
+                      "id": "79406456"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Facebook",
+                      "fontSize": 13,
+                      "color": "$text_body",
+                      "id": "b50c03c0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "name": "Tablet (768px)",
+      "width": 768,
+      "height": 3800,
+      "x": 1540,
+      "y": 0,
+      "fill": "$bg_page",
+      "layout": "vertical",
+      "id": "8a6d4e20",
+      "children": [
+        {
+          "type": "frame",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "$bg_dark",
+          "layout": "horizontal",
+          "padding": [
+            0,
+            24,
+            0,
+            24
+          ],
+          "alignItems": "center",
+          "justifyContent": "space-between",
+          "id": "4077229e",
+          "children": [
+            {
+              "type": "text",
+              "content": "Brew and Bean",
+              "fontSize": 18,
+              "fontWeight": 800,
+              "color": "$bg_accent",
+              "id": "1e2439d4"
+            },
+            {
+              "type": "text",
+              "content": "Menu",
+              "fontSize": 14,
+              "fontWeight": 600,
+              "color": "$text_light",
+              "id": "4a604115"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": "$bg_hero",
+          "layout": "vertical",
+          "padding": [
+            48,
+            40,
+            48,
+            40
+          ],
+          "gap": 32,
+          "alignItems": "center",
+          "id": "e0ed1211",
+          "children": [
+            {
+              "type": "text",
+              "content": "Your Perfect Cup,\nEvery Morning",
+              "fontSize": 40,
+              "fontWeight": 800,
+              "color": "$text_light",
+              "textAlign": "center",
+              "id": "7643ca3e"
+            },
+            {
+              "type": "text",
+              "content": "Artisan coffee, responsibly sourced from the finest growing regions.",
+              "fontSize": 16,
+              "color": "$text_muted",
+              "textAlign": "center",
+              "width": 500,
+              "id": "9eecb62d"
+            },
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "gap": 12,
+              "id": "91585a26",
+              "children": [
+                {
+                  "type": "frame",
+                  "fill": "$bg_accent",
+                  "cornerRadius": 12,
+                  "padding": [
+                    14,
+                    28,
+                    14,
+                    28
+                  ],
+                  "id": "a8b4e8ab",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Explore Our Menu",
+                      "fontSize": 15,
+                      "fontWeight": 700,
+                      "color": "$text_heading",
+                      "id": "2021339c"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "fill": "transparent",
+                  "cornerRadius": 12,
+                  "padding": [
+                    12,
+                    24,
+                    12,
+                    24
+                  ],
+                  "stroke": "$bg_accent",
+                  "strokeWidth": 2,
+                  "id": "e852faee",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Find a Location",
+                      "fontSize": 15,
+                      "fontWeight": 600,
+                      "color": "$bg_accent",
+                      "id": "0a90978f"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": 600,
+              "height": 350,
+              "cornerRadius": 20,
+              "fill": "$bg_card_inner",
+              "id": "036bf9d7",
+              "imageFill": {
+                "src": "/images/hero-latte.png",
+                "objectFit": "cover"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Stats",
+          "width": "fill_container",
+          "height": 100,
+          "fill": "$bg_stats",
+          "layout": "horizontal",
+          "padding": [
+            0,
+            24,
+            0,
+            24
+          ],
+          "alignItems": "center",
+          "justifyContent": "space-around",
+          "id": "13cdf841",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 2,
+              "id": "5eb0e8bf",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "15+",
+                  "fontSize": 24,
+                  "fontWeight": 800,
+                  "color": "$text_stats",
+                  "id": "e119ac2b"
+                },
+                {
+                  "type": "text",
+                  "content": "Origins",
+                  "fontSize": 11,
+                  "color": "$text_stats_label",
+                  "id": "38b1eff0"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 2,
+              "id": "0d9562c9",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "50K+",
+                  "fontSize": 24,
+                  "fontWeight": 800,
+                  "color": "$text_stats",
+                  "id": "b9d563a6"
+                },
+                {
+                  "type": "text",
+                  "content": "Customers",
+                  "fontSize": 11,
+                  "color": "$text_stats_label",
+                  "id": "2eaa7e56"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 2,
+              "id": "3327a583",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "8",
+                  "fontSize": 24,
+                  "fontWeight": 800,
+                  "color": "$text_stats",
+                  "id": "7d457c5d"
+                },
+                {
+                  "type": "text",
+                  "content": "Locations",
+                  "fontSize": 11,
+                  "color": "$text_stats_label",
+                  "id": "c83ef18f"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 2,
+              "id": "d7033f23",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "4.9",
+                  "fontSize": 24,
+                  "fontWeight": 800,
+                  "color": "$text_stats",
+                  "id": "ad7d9e27"
+                },
+                {
+                  "type": "text",
+                  "content": "Rating",
+                  "fontSize": 11,
+                  "color": "$text_stats_label",
+                  "id": "6e10253d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "About",
+          "width": "fill_container",
+          "fill": "$bg_page",
+          "layout": "vertical",
+          "padding": [
+            48,
+            40,
+            48,
+            40
+          ],
+          "gap": 32,
+          "alignItems": "center",
+          "id": "558803be",
+          "children": [
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "height": 360,
+              "cornerRadius": 16,
+              "fill": "$border_subtle",
+              "id": "8d2e3937",
+              "imageFill": {
+                "src": "/images/barista-cafe.png",
+                "objectFit": "cover"
+              }
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "id": "4f6e6745",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "OUR STORY",
+                  "fontSize": 12,
+                  "fontWeight": 700,
+                  "color": "$bg_accent",
+                  "letterSpacing": 3,
+                  "id": "4db3c482"
+                },
+                {
+                  "type": "text",
+                  "content": "Where Every Bean\nHas a Story",
+                  "fontSize": 32,
+                  "fontWeight": 800,
+                  "color": "$text_heading",
+                  "textAlign": "center",
+                  "id": "0a5ab8c1"
+                },
+                {
+                  "type": "text",
+                  "content": "From the highlands of Ethiopia to your cup, we travel the world to find the most exceptional beans.",
+                  "fontSize": 15,
+                  "color": "$text_body",
+                  "textAlign": "center",
+                  "lineHeight": 1.6,
+                  "id": "9c8eedc7"
+                },
+                {
+                  "type": "frame",
+                  "fill": "$bg_accent",
+                  "cornerRadius": 10,
+                  "padding": [
+                    12,
+                    24,
+                    12,
+                    24
+                  ],
+                  "id": "1f0a8d01",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Learn More",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "color": "$text_heading",
+                      "id": "d76995be"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Menu",
+          "width": "fill_container",
+          "fill": "$bg_dark",
+          "layout": "vertical",
+          "padding": [
+            48,
+            40,
+            48,
+            40
+          ],
+          "gap": 32,
+          "alignItems": "center",
+          "id": "f454394e",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 8,
+              "id": "730ea1ca",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "POPULAR PICKS",
+                  "fontSize": 12,
+                  "fontWeight": 700,
+                  "color": "$bg_accent",
+                  "letterSpacing": 3,
+                  "id": "edff830d"
+                },
+                {
+                  "type": "text",
+                  "content": "Our Signature Drinks",
+                  "fontSize": 32,
+                  "fontWeight": 800,
+                  "color": "$text_light",
+                  "id": "1aca67c7"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "gap": 20,
+              "width": "fill_container",
+              "id": "890a7acd",
+              "children": [
+                {
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "fill": "$bg_hero",
+                  "cornerRadius": 12,
+                  "overflow": "hidden",
+                  "width": "fill_container",
+                  "id": "d8f84063",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 220,
+                      "height": 200,
+                      "fill": "$bg_card_inner",
+                      "id": "802c6d13",
+                      "imageFill": {
+                        "src": "/images/caramel-latte.png",
+                        "objectFit": "cover"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "vertical",
+                      "padding": 20,
+                      "gap": 8,
+                      "width": "fill_container",
+                      "justifyContent": "center",
+                      "id": "83382ca6",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Caramel Cloud Latte",
+                          "fontSize": 18,
+                          "fontWeight": 700,
+                          "color": "$text_light",
+                          "id": "e33f5cd9"
+                        },
+                        {
+                          "type": "text",
+                          "content": "Espresso with house-made caramel and cold foam topping",
+                          "fontSize": 13,
+                          "color": "$text_muted",
+                          "lineHeight": 1.5,
+                          "id": "126df6e1"
+                        },
+                        {
+                          "type": "text",
+                          "content": "$6.50",
+                          "fontSize": 20,
+                          "fontWeight": 800,
+                          "color": "$bg_accent",
+                          "id": "3d29d1db"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "fill": "$bg_hero",
+                  "cornerRadius": 12,
+                  "overflow": "hidden",
+                  "width": "fill_container",
+                  "id": "2d430e9c",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 220,
+                      "height": 200,
+                      "fill": "$bg_card_inner",
+                      "id": "1120f04c",
+                      "imageFill": {
+                        "src": "/images/matcha-latte.png",
+                        "objectFit": "cover"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "vertical",
+                      "padding": 20,
+                      "gap": 8,
+                      "width": "fill_container",
+                      "justifyContent": "center",
+                      "id": "adf8647f",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Oat Milk Matcha",
+                          "fontSize": 18,
+                          "fontWeight": 700,
+                          "color": "$text_light",
+                          "id": "e9c2e429"
+                        },
+                        {
+                          "type": "text",
+                          "content": "Ceremonial-grade matcha with creamy oat milk and vanilla",
+                          "fontSize": 13,
+                          "color": "$text_muted",
+                          "lineHeight": 1.5,
+                          "id": "db4ca7ef"
+                        },
+                        {
+                          "type": "text",
+                          "content": "$5.75",
+                          "fontSize": 20,
+                          "fontWeight": 800,
+                          "color": "$bg_accent",
+                          "id": "aea79a40"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "fill": "$bg_hero",
+                  "cornerRadius": 12,
+                  "overflow": "hidden",
+                  "width": "fill_container",
+                  "id": "9baf1de6",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 220,
+                      "height": 200,
+                      "fill": "$bg_card_inner",
+                      "id": "04456e5d",
+                      "imageFill": {
+                        "src": "/images/cold-brew.png",
+                        "objectFit": "cover"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "vertical",
+                      "padding": 20,
+                      "gap": 8,
+                      "width": "fill_container",
+                      "justifyContent": "center",
+                      "id": "964a5835",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Nitro Cold Brew",
+                          "fontSize": 18,
+                          "fontWeight": 700,
+                          "color": "$text_light",
+                          "id": "78a7df84"
+                        },
+                        {
+                          "type": "text",
+                          "content": "Nitrogen-infused for a creamy, naturally sweet finish",
+                          "fontSize": 13,
+                          "color": "$text_muted",
+                          "lineHeight": 1.5,
+                          "id": "8f4a327b"
+                        },
+                        {
+                          "type": "text",
+                          "content": "$5.25",
+                          "fontSize": 20,
+                          "fontWeight": 800,
+                          "color": "$bg_accent",
+                          "id": "5d9367b8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Testimonials",
+          "width": "fill_container",
+          "fill": "$bg_page",
+          "layout": "vertical",
+          "padding": [
+            48,
+            40,
+            48,
+            40
+          ],
+          "gap": 32,
+          "alignItems": "center",
+          "id": "be28a35b",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 8,
+              "id": "d0829bce",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "WHAT PEOPLE SAY",
+                  "fontSize": 12,
+                  "fontWeight": 700,
+                  "color": "$bg_accent",
+                  "letterSpacing": 3,
+                  "id": "e4bec0be"
+                },
+                {
+                  "type": "text",
+                  "content": "Loved by Coffee Enthusiasts",
+                  "fontSize": 32,
+                  "fontWeight": 800,
+                  "color": "$text_heading",
+                  "id": "ace38cde"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "gap": 16,
+              "width": "fill_container",
+              "id": "d2c63808",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "$bg_card",
+                  "cornerRadius": 12,
+                  "padding": 24,
+                  "gap": 16,
+                  "layout": "vertical",
+                  "stroke": "$border_subtle",
+                  "strokeWidth": 1,
+                  "id": "4ccaa6c8",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "★★★★★",
+                      "fontSize": 18,
+                      "color": "#f59e0b",
+                      "id": "76c8144d"
+                    },
+                    {
+                      "type": "text",
+                      "content": "The best coffee I have ever had. Their caramel latte is absolutely divine.",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "lineHeight": 1.6,
+                      "id": "1b0a08cb"
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "id": "c6b9e4c0",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "width": 36,
+                          "height": 36,
+                          "cornerRadius": 18,
+                          "fill": "$bg_accent",
+                          "id": "35654d43",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "SM",
+                              "fontSize": 12,
+                              "fontWeight": 700,
+                              "color": "$text_heading",
+                              "id": "7cf09b75"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "content": "Sarah Mitchell",
+                          "fontSize": 14,
+                          "fontWeight": 700,
+                          "color": "$text_heading",
+                          "id": "481141cd"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "$bg_card",
+                  "cornerRadius": 12,
+                  "padding": 24,
+                  "gap": 16,
+                  "layout": "vertical",
+                  "stroke": "$border_subtle",
+                  "strokeWidth": 1,
+                  "id": "3f152de0",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "★★★★★",
+                      "fontSize": 18,
+                      "color": "#f59e0b",
+                      "id": "c7e30e5f"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Nothing compares. The single-origin pour over is incredibly smooth. Worth every penny.",
+                      "fontSize": 14,
+                      "color": "$text_body",
+                      "lineHeight": 1.6,
+                      "id": "fd94cb40"
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "id": "cd7f8095",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "width": 36,
+                          "height": 36,
+                          "cornerRadius": 18,
+                          "fill": "$bg_card_inner",
+                          "id": "9a25aef3",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "JC",
+                              "fontSize": 12,
+                              "fontWeight": 700,
+                              "color": "$bg_accent",
+                              "id": "87cd5c0a"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "content": "James Chen",
+                          "fontSize": 14,
+                          "fontWeight": 700,
+                          "color": "$text_heading",
+                          "id": "dd1426e6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "CTA",
+          "width": "fill_container",
+          "fill": "$bg_hero",
+          "layout": "vertical",
+          "padding": [
+            48,
+            40,
+            48,
+            40
+          ],
+          "gap": 24,
+          "alignItems": "center",
+          "id": "a355e88f",
+          "children": [
+            {
+              "type": "text",
+              "content": "Ready to Taste\nthe Difference?",
+              "fontSize": 36,
+              "fontWeight": 800,
+              "color": "$text_light",
+              "textAlign": "center",
+              "id": "ee825dbd"
+            },
+            {
+              "type": "text",
+              "content": "Join our loyalty program and get your first drink free.",
+              "fontSize": 15,
+              "color": "$text_muted",
+              "textAlign": "center",
+              "id": "64306a2f"
+            },
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "gap": 12,
+              "id": "0b9390dd",
+              "children": [
+                {
+                  "type": "frame",
+                  "fill": "$bg_accent",
+                  "cornerRadius": 10,
+                  "padding": [
+                    14,
+                    28,
+                    14,
+                    28
+                  ],
+                  "id": "eab4af27",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Join Now",
+                      "fontSize": 15,
+                      "fontWeight": 700,
+                      "color": "$text_heading",
+                      "id": "2b8ef257"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "fill": "transparent",
+                  "cornerRadius": 10,
+                  "padding": [
+                    12,
+                    24,
+                    12,
+                    24
+                  ],
+                  "stroke": "$bg_accent",
+                  "strokeWidth": 2,
+                  "id": "a986a82f",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Download App",
+                      "fontSize": 15,
+                      "fontWeight": 600,
+                      "color": "$bg_accent",
+                      "id": "fceaadd7"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "height": 240,
+              "cornerRadius": 16,
+              "fill": "$bg_card_inner",
+              "id": "9cee1c9c",
+              "imageFill": {
+                "src": "/images/coffee-beans.png",
+                "objectFit": "cover"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$bg_footer",
+          "layout": "vertical",
+          "padding": [
+            40,
+            40,
+            24,
+            40
+          ],
+          "gap": 24,
+          "id": "5c61b903",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "justifyContent": "space-between",
+              "width": "fill_container",
+              "id": "be0bbc92",
+              "children": [
+                {
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "id": "6f3db57f",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Brew and Bean",
+                      "fontSize": 18,
+                      "fontWeight": 800,
+                      "color": "$bg_accent",
+                      "id": "0816479a"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Exceptional coffee since 2019.",
+                      "fontSize": 13,
+                      "color": "$text_body",
+                      "id": "bc8cf40c"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "gap": 32,
+                  "id": "e12a7cc3",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "id": "7109fa4c",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Quick Links",
+                          "fontSize": 13,
+                          "fontWeight": 700,
+                          "color": "$text_light",
+                          "id": "e3122c2c"
+                        },
+                        {
+                          "type": "text",
+                          "content": "Home",
+                          "fontSize": 12,
+                          "color": "$text_body",
+                          "id": "1e65c2dc"
+                        },
+                        {
+                          "type": "text",
+                          "content": "Menu",
+                          "fontSize": 12,
+                          "color": "$text_body",
+                          "id": "8eb535ee"
+                        },
+                        {
+                          "type": "text",
+                          "content": "About",
+                          "fontSize": 12,
+                          "color": "$text_body",
+                          "id": "c303fb1d"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "id": "f8efc831",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Contact",
+                          "fontSize": 13,
+                          "fontWeight": 700,
+                          "color": "$text_light",
+                          "id": "dff5aff8"
+                        },
+                        {
+                          "type": "text",
+                          "content": "hello@brewandbean.com",
+                          "fontSize": 12,
+                          "color": "$text_body",
+                          "id": "384a6113"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$bg_hero",
+              "id": "87956715"
+            },
+            {
+              "type": "text",
+              "content": "2025 Brew and Bean. All rights reserved.",
+              "fontSize": 12,
+              "color": "$footer_text",
+              "id": "8800ebca"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "name": "Mobile (375px)",
+      "width": 375,
+      "height": 4200,
+      "x": 2408,
+      "y": 0,
+      "fill": "$bg_page",
+      "layout": "vertical",
+      "id": "d8aacec5",
+      "children": [
+        {
+          "type": "frame",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "$bg_dark",
+          "layout": "horizontal",
+          "padding": [
+            0,
+            16,
+            0,
+            16
+          ],
+          "alignItems": "center",
+          "justifyContent": "space-between",
+          "id": "04d0e602",
+          "children": [
+            {
+              "type": "text",
+              "content": "Brew and Bean",
+              "fontSize": 16,
+              "fontWeight": 800,
+              "color": "$bg_accent",
+              "id": "2cf09810"
+            },
+            {
+              "type": "text",
+              "content": "Menu",
+              "fontSize": 12,
+              "fontWeight": 600,
+              "color": "$text_light",
+              "id": "d5514101"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Hero",
+          "width": "fill_container",
+          "fill": "$bg_hero",
+          "layout": "vertical",
+          "padding": [
+            40,
+            20,
+            40,
+            20
+          ],
+          "gap": 24,
+          "alignItems": "center",
+          "id": "27ee947a",
+          "children": [
+            {
+              "type": "text",
+              "content": "Your Perfect Cup,\nEvery Morning",
+              "fontSize": 32,
+              "fontWeight": 800,
+              "color": "$text_light",
+              "textAlign": "center",
+              "id": "409a12f9"
+            },
+            {
+              "type": "text",
+              "content": "Artisan coffee, responsibly sourced from the finest growing regions.",
+              "fontSize": 14,
+              "color": "$text_muted",
+              "textAlign": "center",
+              "id": "b4e584d1"
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "gap": 10,
+              "width": "fill_container",
+              "alignItems": "center",
+              "id": "99fbfad4",
+              "children": [
+                {
+                  "type": "frame",
+                  "fill": "$bg_accent",
+                  "cornerRadius": 10,
+                  "padding": [
+                    14,
+                    32,
+                    14,
+                    32
+                  ],
+                  "id": "9053cdda",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Explore Our Menu",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "$text_heading",
+                      "id": "da2b57f5"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "fill": "transparent",
+                  "cornerRadius": 10,
+                  "padding": [
+                    12,
+                    28,
+                    12,
+                    28
+                  ],
+                  "stroke": "$bg_accent",
+                  "strokeWidth": 2,
+                  "id": "0fe493d3",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Find a Location",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "color": "$bg_accent",
+                      "id": "e786628d"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "height": 240,
+              "cornerRadius": 16,
+              "fill": "$bg_card_inner",
+              "id": "1abea5f4",
+              "imageFill": {
+                "src": "/images/hero-latte.png",
+                "objectFit": "cover"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Stats",
+          "width": "fill_container",
+          "fill": "$bg_stats",
+          "layout": "horizontal",
+          "padding": [
+            16,
+            12,
+            16,
+            12
+          ],
+          "alignItems": "center",
+          "justifyContent": "space-around",
+          "flexWrap": "wrap",
+          "gap": 8,
+          "id": "0267a424",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 2,
+              "width": 80,
+              "id": "8b85075e",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "15+",
+                  "fontSize": 20,
+                  "fontWeight": 800,
+                  "color": "$text_stats",
+                  "id": "db8eb9c3"
+                },
+                {
+                  "type": "text",
+                  "content": "Origins",
+                  "fontSize": 10,
+                  "color": "$text_stats_label",
+                  "id": "1d39f2fd"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 2,
+              "width": 80,
+              "id": "315ee8f9",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "50K+",
+                  "fontSize": 20,
+                  "fontWeight": 800,
+                  "color": "$text_stats",
+                  "id": "b927d646"
+                },
+                {
+                  "type": "text",
+                  "content": "Customers",
+                  "fontSize": 10,
+                  "color": "$text_stats_label",
+                  "id": "9a5ff29a"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 2,
+              "width": 80,
+              "id": "7f1b4951",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "8",
+                  "fontSize": 20,
+                  "fontWeight": 800,
+                  "color": "$text_stats",
+                  "id": "168ae98b"
+                },
+                {
+                  "type": "text",
+                  "content": "Locations",
+                  "fontSize": 10,
+                  "color": "$text_stats_label",
+                  "id": "f7112567"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 2,
+              "width": 80,
+              "id": "70b361d5",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "4.9",
+                  "fontSize": 20,
+                  "fontWeight": 800,
+                  "color": "$text_stats",
+                  "id": "25977035"
+                },
+                {
+                  "type": "text",
+                  "content": "Rating",
+                  "fontSize": 10,
+                  "color": "$text_stats_label",
+                  "id": "e2cb5827"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "About",
+          "width": "fill_container",
+          "fill": "$bg_page",
+          "layout": "vertical",
+          "padding": [
+            40,
+            20,
+            40,
+            20
+          ],
+          "gap": 24,
+          "alignItems": "center",
+          "id": "5a072888",
+          "children": [
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "height": 260,
+              "cornerRadius": 12,
+              "fill": "$border_subtle",
+              "id": "714eb381",
+              "imageFill": {
+                "src": "/images/barista-cafe.png",
+                "objectFit": "cover"
+              }
+            },
+            {
+              "type": "text",
+              "content": "OUR STORY",
+              "fontSize": 11,
+              "fontWeight": 700,
+              "color": "$bg_accent",
+              "letterSpacing": 3,
+              "id": "6d1389d7"
+            },
+            {
+              "type": "text",
+              "content": "Where Every Bean\nHas a Story",
+              "fontSize": 26,
+              "fontWeight": 800,
+              "color": "$text_heading",
+              "textAlign": "center",
+              "id": "a2b5d168"
+            },
+            {
+              "type": "text",
+              "content": "From Ethiopia to your cup, we find the most exceptional beans.",
+              "fontSize": 14,
+              "color": "$text_body",
+              "textAlign": "center",
+              "lineHeight": 1.6,
+              "id": "eceed803"
+            },
+            {
+              "type": "frame",
+              "fill": "$bg_accent",
+              "cornerRadius": 8,
+              "padding": [
+                10,
+                20,
+                10,
+                20
+              ],
+              "id": "38c3bf3d",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Learn More",
+                  "fontSize": 13,
+                  "fontWeight": 600,
+                  "color": "$text_heading",
+                  "id": "0c1edb06"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Menu",
+          "width": "fill_container",
+          "fill": "$bg_dark",
+          "layout": "vertical",
+          "padding": [
+            40,
+            20,
+            40,
+            20
+          ],
+          "gap": 24,
+          "alignItems": "center",
+          "id": "121907c4",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 6,
+              "id": "143058ac",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "POPULAR PICKS",
+                  "fontSize": 11,
+                  "fontWeight": 700,
+                  "color": "$bg_accent",
+                  "letterSpacing": 3,
+                  "id": "701dbed0"
+                },
+                {
+                  "type": "text",
+                  "content": "Our Signature Drinks",
+                  "fontSize": 24,
+                  "fontWeight": 800,
+                  "color": "$text_light",
+                  "id": "86079ec6"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "gap": 16,
+              "width": "fill_container",
+              "id": "d05247c6",
+              "children": [
+                {
+                  "type": "frame",
+                  "layout": "vertical",
+                  "fill": "$bg_hero",
+                  "cornerRadius": 12,
+                  "overflow": "hidden",
+                  "width": "fill_container",
+                  "id": "c93a3f59",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": "$bg_card_inner",
+                      "id": "bfc83915",
+                      "imageFill": {
+                        "src": "/images/caramel-latte.png",
+                        "objectFit": "cover"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "vertical",
+                      "padding": 16,
+                      "gap": 6,
+                      "width": "fill_container",
+                      "id": "6a4d8622",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Caramel Cloud Latte",
+                          "fontSize": 16,
+                          "fontWeight": 700,
+                          "color": "$text_light",
+                          "id": "bac64b35"
+                        },
+                        {
+                          "type": "text",
+                          "content": "Espresso with caramel and cold foam",
+                          "fontSize": 12,
+                          "color": "$text_muted",
+                          "id": "84500b1e"
+                        },
+                        {
+                          "type": "frame",
+                          "layout": "horizontal",
+                          "justifyContent": "space-between",
+                          "alignItems": "center",
+                          "width": "fill_container",
+                          "id": "8100c6ec",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "$6.50",
+                              "fontSize": 18,
+                              "fontWeight": 800,
+                              "color": "$bg_accent",
+                              "id": "3ce55d5a"
+                            },
+                            {
+                              "type": "frame",
+                              "fill": "$bg_accent",
+                              "cornerRadius": 6,
+                              "padding": [
+                                6,
+                                14,
+                                6,
+                                14
+                              ],
+                              "id": "b938c009",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "content": "Add",
+                                  "fontSize": 12,
+                                  "fontWeight": 600,
+                                  "color": "$text_heading",
+                                  "id": "4928e602"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "layout": "vertical",
+                  "fill": "$bg_hero",
+                  "cornerRadius": 12,
+                  "overflow": "hidden",
+                  "width": "fill_container",
+                  "id": "eef5e0cd",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": "$bg_card_inner",
+                      "id": "6667be5f",
+                      "imageFill": {
+                        "src": "/images/matcha-latte.png",
+                        "objectFit": "cover"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "layout": "vertical",
+                      "padding": 16,
+                      "gap": 6,
+                      "width": "fill_container",
+                      "id": "fb9298a7",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "Oat Milk Matcha",
+                          "fontSize": 16,
+                          "fontWeight": 700,
+                          "color": "$text_light",
+                          "id": "c9ba661b"
+                        },
+                        {
+                          "type": "text",
+                          "content": "Ceremonial-grade matcha with oat milk",
+                          "fontSize": 12,
+                          "color": "$text_muted",
+                          "id": "1c591441"
+                        },
+                        {
+                          "type": "frame",
+                          "layout": "horizontal",
+                          "justifyContent": "space-between",
+                          "alignItems": "center",
+                          "width": "fill_container",
+                          "id": "ac4a5901",
+                          "children": [
+                            {
+                              "type": "text",
+                              "content": "$5.75",
+                              "fontSize": 18,
+                              "fontWeight": 800,
+                              "color": "$bg_accent",
+                              "id": "2398bb98"
+                            },
+                            {
+                              "type": "frame",
+                              "fill": "$bg_accent",
+                              "cornerRadius": 6,
+                              "padding": [
+                                6,
+                                14,
+                                6,
+                                14
+                              ],
+                              "id": "45c53e0a",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "content": "Add",
+                                  "fontSize": 12,
+                                  "fontWeight": 600,
+                                  "color": "$text_heading",
+                                  "id": "49404c36"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Testimonials",
+          "width": "fill_container",
+          "fill": "$bg_page",
+          "layout": "vertical",
+          "padding": [
+            40,
+            20,
+            40,
+            20
+          ],
+          "gap": 20,
+          "alignItems": "center",
+          "id": "fa7441e8",
+          "children": [
+            {
+              "type": "frame",
+              "layout": "vertical",
+              "alignItems": "center",
+              "gap": 6,
+              "id": "e2867172",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "REVIEWS",
+                  "fontSize": 11,
+                  "fontWeight": 700,
+                  "color": "$bg_accent",
+                  "letterSpacing": 3,
+                  "id": "85e854b3"
+                },
+                {
+                  "type": "text",
+                  "content": "Loved by Coffee Fans",
+                  "fontSize": 22,
+                  "fontWeight": 800,
+                  "color": "$text_heading",
+                  "id": "bb911243"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "$bg_card",
+              "cornerRadius": 10,
+              "padding": 16,
+              "gap": 10,
+              "layout": "vertical",
+              "stroke": "$border_subtle",
+              "strokeWidth": 1,
+              "id": "9c04bc7e",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "★★★★★",
+                  "fontSize": 16,
+                  "color": "#f59e0b",
+                  "id": "2dee3d93"
+                },
+                {
+                  "type": "text",
+                  "content": "The best coffee I have ever had. Absolutely divine.",
+                  "fontSize": 13,
+                  "color": "$text_body",
+                  "lineHeight": 1.5,
+                  "id": "51f04df8"
+                },
+                {
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "id": "d9b14c21",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 28,
+                      "height": 28,
+                      "cornerRadius": 14,
+                      "fill": "$bg_accent",
+                      "id": "db31b675",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "S",
+                          "fontSize": 11,
+                          "fontWeight": 700,
+                          "color": "$text_heading",
+                          "id": "d0ef31d2"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Sarah M.",
+                      "fontSize": 13,
+                      "fontWeight": 700,
+                      "color": "$text_heading",
+                      "id": "2b621f48"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "$bg_card",
+              "cornerRadius": 10,
+              "padding": 16,
+              "gap": 10,
+              "layout": "vertical",
+              "stroke": "$border_subtle",
+              "strokeWidth": 1,
+              "id": "655417e5",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "★★★★★",
+                  "fontSize": 16,
+                  "color": "#f59e0b",
+                  "id": "bafde4f4"
+                },
+                {
+                  "type": "text",
+                  "content": "Nothing compares. The pour over is incredibly smooth.",
+                  "fontSize": 13,
+                  "color": "$text_body",
+                  "lineHeight": 1.5,
+                  "id": "d710a323"
+                },
+                {
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "id": "e483eb71",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 28,
+                      "height": 28,
+                      "cornerRadius": 14,
+                      "fill": "$bg_card_inner",
+                      "id": "6c2cf109",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "J",
+                          "fontSize": 11,
+                          "fontWeight": 700,
+                          "color": "$bg_accent",
+                          "id": "274ff300"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "James C.",
+                      "fontSize": 13,
+                      "fontWeight": 700,
+                      "color": "$text_heading",
+                      "id": "d4b43c4e"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "CTA",
+          "width": "fill_container",
+          "fill": "$bg_hero",
+          "layout": "vertical",
+          "padding": [
+            40,
+            20,
+            40,
+            20
+          ],
+          "gap": 20,
+          "alignItems": "center",
+          "id": "00576fc3",
+          "children": [
+            {
+              "type": "text",
+              "content": "Ready to Taste\nthe Difference?",
+              "fontSize": 26,
+              "fontWeight": 800,
+              "color": "$text_light",
+              "textAlign": "center",
+              "id": "67d69397"
+            },
+            {
+              "type": "text",
+              "content": "Join our loyalty program and get your first drink free.",
+              "fontSize": 13,
+              "color": "$text_muted",
+              "textAlign": "center",
+              "id": "70619f27"
+            },
+            {
+              "type": "frame",
+              "fill": "$bg_accent",
+              "cornerRadius": 8,
+              "padding": [
+                14,
+                32,
+                14,
+                32
+              ],
+              "id": "884a2f1d",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Join Now - Free",
+                  "fontSize": 14,
+                  "fontWeight": 700,
+                  "color": "$text_heading",
+                  "id": "aee70065"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$bg_footer",
+          "layout": "vertical",
+          "padding": [
+            32,
+            20,
+            20,
+            20
+          ],
+          "gap": 20,
+          "alignItems": "center",
+          "id": "bac886fb",
+          "children": [
+            {
+              "type": "text",
+              "content": "Brew and Bean",
+              "fontSize": 16,
+              "fontWeight": 800,
+              "color": "$bg_accent",
+              "id": "b0c3bd8a"
+            },
+            {
+              "type": "text",
+              "content": "Exceptional coffee since 2019.",
+              "fontSize": 12,
+              "color": "$text_body",
+              "textAlign": "center",
+              "id": "ded1db1b"
+            },
+            {
+              "type": "frame",
+              "layout": "horizontal",
+              "gap": 20,
+              "id": "ace6e836",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "Home",
+                  "fontSize": 12,
+                  "color": "$text_body",
+                  "id": "025a7fe0"
+                },
+                {
+                  "type": "text",
+                  "content": "Menu",
+                  "fontSize": 12,
+                  "color": "$text_body",
+                  "id": "2a407110"
+                },
+                {
+                  "type": "text",
+                  "content": "About",
+                  "fontSize": 12,
+                  "color": "$text_body",
+                  "id": "4d1464c6"
+                },
+                {
+                  "type": "text",
+                  "content": "Contact",
+                  "fontSize": 12,
+                  "color": "$text_body",
+                  "id": "68c2eff3"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "$bg_hero",
+              "id": "47f7a3c7"
+            },
+            {
+              "type": "text",
+              "content": "2025 Brew and Bean",
+              "fontSize": 11,
+              "color": "$footer_text",
+              "id": "f61ae387"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg_accent": {
+      "type": "color",
+      "value": "#d4a574"
+    },
+    "bg_card": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#ffffff"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#2c1a0e"
+        }
+      ]
+    },
+    "bg_card_dark": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#2c1a0e"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#1a1209"
+        }
+      ]
+    },
+    "bg_card_inner": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#3d2a1a"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#2c1a0e"
+        }
+      ]
+    },
+    "bg_dark": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#1a1209"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#0f0a06"
+        }
+      ]
+    },
+    "bg_footer": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#0f0a06"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#0a0704"
+        }
+      ]
+    },
+    "bg_hero": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#2c1a0e"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#1a1209"
+        }
+      ]
+    },
+    "bg_page": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#faf7f2"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#1a1209"
+        }
+      ]
+    },
+    "bg_stats": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#d4a574"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#3d2a1a"
+        }
+      ]
+    },
+    "border_subtle": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#e8ddd0"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#3d2a1a"
+        }
+      ]
+    },
+    "footer_text": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#4a3f35"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#6b5b4e"
+        }
+      ]
+    },
+    "text_body": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#6b5b4e"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#a89580"
+        }
+      ]
+    },
+    "text_heading": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#1a1209"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#faf7f2"
+        }
+      ]
+    },
+    "text_light": {
+      "type": "color",
+      "value": "#faf7f2"
+    },
+    "text_muted": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#a89580"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#6b5b4e"
+        }
+      ]
+    },
+    "text_stats": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#1a1209"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#d4a574"
+        }
+      ]
+    },
+    "text_stats_label": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "#3d2a1a"
+        },
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#a89580"
+        }
+      ]
+    }
+  },
+  "themes": {
+    "colorScheme": [
+      "light",
+      "dark"
+    ]
+  },
+  "activeTheme": {
+    "colorScheme": "light"
+  }
+}

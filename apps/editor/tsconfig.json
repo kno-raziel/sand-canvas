@@ -1,0 +1,21 @@
+{
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "target": "ES2022",
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+      "@sand/core": ["../../packages/core/src"],
+      "@sand/core/*": ["../../packages/core/src/*"],
+      "@sand/adapter-daisyui": ["../../packages/adapter-daisyui/src"],
+      "@sand/adapter-daisyui/*": ["../../packages/adapter-daisyui/src/*"]
+    }
+  },
+  "include": ["src/**/*", "vite-env.d.ts"]
+}

@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter '@sand/*' run dev",
+    "build": "pnpm --filter '@sand/*' run build",
+    "check": "pnpm --filter '@sand/*' run check",
+    "typecheck": "pnpm --filter '@sand/*' run typecheck"
+  }
+}

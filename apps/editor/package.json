@@ -1,0 +1,36 @@
+{
+  "name": "@sand/editor",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 4003",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "check": "biome check .",
+    "check:fix": "biome check --write ."
+  },
+  "dependencies": {
+    "@sand/adapter-daisyui": "workspace:*",
+    "@sand/core": "workspace:*",
+    "@xyflow/react": "^12.10.1",
+    "html-to-image": "^1.11.13",
+    "immer": "^11.1.4",
+    "lucide-react": "^0.511.0",
+    "motion": "^12.24.12",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "daisyui": "^5.5.14",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
