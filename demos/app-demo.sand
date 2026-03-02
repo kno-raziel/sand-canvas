@@ -1,0 +1,385 @@
+{
+  "version": 1,
+  "name": "SaaS Dashboard — daisyUI in Action",
+  "children": [
+    {
+      "type": "frame",
+      "name": "Dashboard",
+      "id": "dashboard",
+      "x": 100,
+      "y": 100,
+      "width": 1440,
+      "height": 1200,
+      "children": [
+        {
+          "id": "nav",
+          "type": "ref",
+          "ref": "daisyui:Navbar",
+          "props": { "title": "🚀 LaunchPad" }
+        },
+
+        {
+          "id": "main-layout",
+          "type": "frame",
+          "layout": "horizontal",
+          "width": "fill_container",
+          "height": "fill_container",
+          "children": [
+            {
+              "id": "sidebar",
+              "type": "ref",
+              "ref": "daisyui:Menu",
+              "props": { "item1": "📊 Dashboard", "item2": "👥 Users", "item3": "⚙️ Settings" }
+            },
+
+            {
+              "id": "content",
+              "type": "frame",
+              "layout": "vertical",
+              "width": "fill_container",
+              "padding": 24,
+              "gap": 24,
+              "children": [
+                {
+                  "id": "top-bar",
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "width": "fill_container",
+                  "justifyContent": "space-between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "breadcrumb-area",
+                      "type": "ref",
+                      "ref": "daisyui:Breadcrumbs",
+                      "props": { "crumb1": "Home", "crumb2": "Dashboard", "crumb3": "Overview" }
+                    },
+                    {
+                      "id": "top-actions",
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        { "id": "search", "type": "ref", "ref": "daisyui:Input", "props": { "bordered": true, "size": "sm" } },
+                        { "id": "add-btn", "type": "ref", "ref": "daisyui:Button", "props": { "label": "+ New", "variant": "primary", "size": "sm" } },
+                        { "id": "user-avatar", "type": "ref", "ref": "daisyui:Avatar", "props": { "initials": "JD" } }
+                      ]
+                    }
+                  ]
+                },
+
+                {
+                  "id": "stats-row",
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    { "id": "stat1", "type": "ref", "ref": "daisyui:Stat", "props": { "title": "Total Revenue", "value": "$45,231", "description": "↗︎ 20.1% from last month" } },
+                    { "id": "stat2", "type": "ref", "ref": "daisyui:Stat", "props": { "title": "Active Users", "value": "2,350", "description": "↗︎ 180 new users" } },
+                    { "id": "stat3", "type": "ref", "ref": "daisyui:Stat", "props": { "title": "Sales", "value": "+12,234", "description": "↗︎ 19% increase" } },
+                    { "id": "stat4", "type": "ref", "ref": "daisyui:Stat", "props": { "title": "Active Now", "value": "573", "description": "↘︎ 201 less than usual" } }
+                  ]
+                },
+
+                {
+                  "id": "content-tabs",
+                  "type": "ref",
+                  "ref": "daisyui:Tabs",
+                  "props": { "tab1": "Overview", "tab2": "Analytics", "tab3": "Reports", "variant": "border" }
+                },
+
+                {
+                  "id": "mid-row",
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "id": "main-card",
+                      "type": "ref",
+                      "ref": "daisyui:Card",
+                      "props": { "title": "Recent Activity", "description": "Your team completed 12 tasks today. 3 are still pending review." }
+                    },
+                    {
+                      "id": "chat-card",
+                      "type": "frame",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        { "id": "ch1", "type": "ref", "ref": "daisyui:Chat", "props": { "sender": "Alice", "message": "Deploy looks good 👍", "timestamp": "2m ago" } },
+                        { "id": "ch2", "type": "ref", "ref": "daisyui:Chat", "props": { "sender": "Bob", "message": "Merging the PR now", "timestamp": "5m ago" } }
+                      ]
+                    }
+                  ]
+                },
+
+                {
+                  "id": "alerts-row",
+                  "type": "frame",
+                  "layout": "vertical",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    { "id": "alert1", "type": "ref", "ref": "daisyui:Alert", "props": { "message": "System update scheduled for tonight at 2 AM", "variant": "info" } },
+                    { "id": "alert2", "type": "ref", "ref": "daisyui:Alert", "props": { "message": "All services operational", "variant": "success" } }
+                  ]
+                },
+
+                {
+                  "id": "users-table",
+                  "type": "ref",
+                  "ref": "daisyui:Table",
+                  "props": {
+                    "col1": "Name", "col2": "Email", "col3": "Role",
+                    "row1col1": "Alice Johnson", "row1col2": "alice@example.com", "row1col3": "Admin",
+                    "row2col1": "Bob Smith", "row2col2": "bob@example.com", "row2col3": "Editor",
+                    "zebra": true
+                  }
+                },
+
+                {
+                  "id": "bottom-row",
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "justifyContent": "space-between",
+                  "children": [
+                    { "id": "pag", "type": "ref", "ref": "daisyui:Pagination", "props": { "prev": "«", "current": "Page 1", "next": "»" } },
+                    {
+                      "id": "progress-area",
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        { "id": "lbl-prog", "type": "text", "content": "Storage:", "fontSize": 14, "color": "#64748b" },
+                        { "id": "prog", "type": "ref", "ref": "daisyui:Progress", "props": { "variant": "primary" } }
+                      ]
+                    },
+                    {
+                      "id": "kbd-area",
+                      "type": "frame",
+                      "layout": "horizontal",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        { "id": "kbd1", "type": "ref", "ref": "daisyui:Kbd", "props": { "key": "⌘" } },
+                        { "id": "kbd2", "type": "ref", "ref": "daisyui:Kbd", "props": { "key": "K" } },
+                        { "id": "lbl-kbd", "type": "text", "content": "Command Palette", "fontSize": 12, "color": "#94a3b8" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "id": "app-footer",
+          "type": "ref",
+          "ref": "daisyui:Footer",
+          "props": {
+            "col1Title": "Product",
+            "col1Link1": "Features",
+            "col1Link2": "Pricing",
+            "col2Title": "Company",
+            "col2Link1": "About",
+            "col2Link2": "Contact"
+          }
+        }
+      ]
+    },
+
+    {
+      "type": "frame",
+      "name": "Settings Page",
+      "id": "settings",
+      "x": 1660,
+      "y": 100,
+      "width": 1280,
+      "height": 900,
+      "children": [
+        { "id": "set-nav", "type": "ref", "ref": "daisyui:Navbar", "props": { "title": "🚀 LaunchPad — Settings" } },
+
+        {
+          "id": "set-body",
+          "type": "frame",
+          "layout": "vertical",
+          "width": "fill_container",
+          "padding": 32,
+          "gap": 24,
+          "children": [
+            { "id": "set-tabs", "type": "ref", "ref": "daisyui:Tabs", "props": { "tab1": "Profile", "tab2": "Security", "tab3": "Billing", "variant": "box" } },
+
+            {
+              "id": "set-steps",
+              "type": "ref",
+              "ref": "daisyui:Steps",
+              "props": { "step1": "Basic Info", "step2": "Preferences", "step3": "Review", "step4": "Confirm" }
+            },
+
+            {
+              "id": "set-fieldset",
+              "type": "ref",
+              "ref": "daisyui:Fieldset",
+              "props": { "legend": "Profile Information", "description": "Update your personal details below" }
+            },
+
+            {
+              "id": "form-row",
+              "type": "frame",
+              "layout": "horizontal",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "id": "form-col1",
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "width": "fill_container",
+                  "children": [
+                    { "id": "fl1", "type": "ref", "ref": "daisyui:Label", "props": { "text": "Full Name" } },
+                    { "id": "fi1", "type": "ref", "ref": "daisyui:Input", "props": { "bordered": true } },
+                    { "id": "fl2", "type": "ref", "ref": "daisyui:Label", "props": { "text": "Email" } },
+                    { "id": "fi2", "type": "ref", "ref": "daisyui:Input", "props": { "variant": "primary", "bordered": true } }
+                  ]
+                },
+                {
+                  "id": "form-col2",
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "width": "fill_container",
+                  "children": [
+                    { "id": "fl3", "type": "ref", "ref": "daisyui:Label", "props": { "text": "Role" } },
+                    { "id": "fi3", "type": "ref", "ref": "daisyui:Select", "props": { "option1": "Admin", "option2": "Editor", "option3": "Viewer", "bordered": true } },
+                    { "id": "fl4", "type": "ref", "ref": "daisyui:Label", "props": { "text": "Bio" } },
+                    { "id": "fi4", "type": "ref", "ref": "daisyui:Textarea", "props": { "bordered": true } }
+                  ]
+                }
+              ]
+            },
+
+            {
+              "id": "prefs-row",
+              "type": "frame",
+              "layout": "horizontal",
+              "width": "fill_container",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "pref1-grp",
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    { "id": "tg1", "type": "ref", "ref": "daisyui:Toggle", "props": { "variant": "primary" } },
+                    { "id": "tg1-lbl", "type": "text", "content": "Email notifications", "fontSize": 14 }
+                  ]
+                },
+                {
+                  "id": "pref2-grp",
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    { "id": "cb1", "type": "ref", "ref": "daisyui:Checkbox", "props": { "variant": "accent" } },
+                    { "id": "cb1-lbl", "type": "text", "content": "Marketing emails", "fontSize": 14 }
+                  ]
+                },
+                {
+                  "id": "pref3-grp",
+                  "type": "frame",
+                  "layout": "horizontal",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    { "id": "cb2", "type": "ref", "ref": "daisyui:Checkbox", "props": { "variant": "success" } },
+                    { "id": "cb2-lbl", "type": "text", "content": "Two-factor auth", "fontSize": 14 }
+                  ]
+                }
+              ]
+            },
+
+            {
+              "id": "actions-row",
+              "type": "frame",
+              "layout": "horizontal",
+              "gap": 12,
+              "justifyContent": "flex-end",
+              "width": "fill_container",
+              "children": [
+                { "id": "cancel-btn", "type": "ref", "ref": "daisyui:Button", "props": { "label": "Cancel", "variant": "ghost" } },
+                { "id": "save-btn", "type": "ref", "ref": "daisyui:Button", "props": { "label": "Save Changes", "variant": "primary" } }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "type": "frame",
+      "name": "Landing Section",
+      "id": "landing",
+      "x": 100,
+      "y": 1420,
+      "width": 1440,
+      "height": 800,
+      "children": [
+        { "id": "land-hero", "type": "ref", "ref": "daisyui:Hero", "props": { "title": "Build Faster with Sand", "description": "The AI-native design editor that renders real React components.", "buttonLabel": "Get Started Free" } },
+
+        {
+          "id": "feature-cards",
+          "type": "frame",
+          "layout": "horizontal",
+          "width": "fill_container",
+          "gap": 16,
+          "padding": 32,
+          "children": [
+            { "id": "fc1", "type": "ref", "ref": "daisyui:Card", "props": { "title": "Real Components", "description": "Every component in the editor is a real React element — what you design is what gets built." } },
+            { "id": "fc2", "type": "ref", "ref": "daisyui:Card", "props": { "title": "AI-Powered", "description": "13 MCP tools let AI agents create, modify, and screenshot designs programmatically." } },
+            { "id": "fc3", "type": "ref", "ref": "daisyui:Card", "props": { "title": "Extensible", "description": "Add any React component library. daisyUI, Radix, ShadCN — bring your own." } }
+          ]
+        },
+
+        {
+          "id": "code-section",
+          "type": "frame",
+          "layout": "horizontal",
+          "width": "fill_container",
+          "gap": 16,
+          "padding": [0, 32, 32, 32],
+          "children": [
+            { "id": "browser-mock", "type": "ref", "ref": "daisyui:MockupBrowser", "props": { "url": "https://sand.dev", "description": "Your design here" } },
+            { "id": "code-mock", "type": "ref", "ref": "daisyui:MockupCode", "props": { "line1": "npm install @sand/core", "line2": "import { Sand } from '@sand/core'", "line3": "Sand.render(<App />)" } }
+          ]
+        },
+
+        {
+          "id": "land-footer",
+          "type": "ref",
+          "ref": "daisyui:Footer",
+          "props": {
+            "col1Title": "Product",
+            "col1Link1": "Features",
+            "col1Link2": "Pricing",
+            "col2Title": "Resources",
+            "col2Link1": "Documentation",
+            "col2Link2": "GitHub"
+          }
+        }
+      ]
+    }
+  ]
+}

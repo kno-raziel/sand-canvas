@@ -1,0 +1,2196 @@
+{
+  "version": 1,
+  "name": "about-section",
+  "width": 1440,
+  "height": 900,
+  "themes": {
+    "colorScheme": [
+      "dark",
+      "light"
+    ]
+  },
+  "variables": {
+    "bg_card": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "rgba(255,255,255,0.05)"
+        },
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "oklch(91.8% 0.018 123.72)"
+        }
+      ]
+    },
+    "bg_surface": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#0f172a"
+        },
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "oklch(98.71% 0.02 123.72)"
+        }
+      ]
+    },
+    "border_card": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "rgba(255,255,255,0.1)"
+        },
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "oklch(84.89% 0.017 123.72)"
+        }
+      ]
+    },
+    "text_body": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#94a3b8"
+        },
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "oklch(30.98% 0.075 108.6)"
+        }
+      ]
+    },
+    "text_heading": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#fbbf24"
+        },
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "oklch(58.92% 0.199 134.6)"
+        }
+      ]
+    },
+    "text_muted": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#64748b"
+        },
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "oklch(84.89% 0.017 123.72)"
+        }
+      ]
+    },
+    "text_primary": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#2dd4bf"
+        },
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "oklch(58.92% 0.199 134.6)"
+        }
+      ]
+    },
+    "text_title": {
+      "type": "color",
+      "value": [
+        {
+          "theme": {
+            "colorScheme": "dark"
+          },
+          "value": "#d1d5db"
+        },
+        {
+          "theme": {
+            "colorScheme": "light"
+          },
+          "value": "oklch(19.742% 0.004 123.72)"
+        }
+      ]
+    }
+  },
+  "activeTheme": {
+    "colorScheme": "dark"
+  },
+  "children": [
+    {
+      "id": "b861d5e7",
+      "name": "About Section",
+      "width": 1280,
+      "height": 1200,
+      "fill": "var(bg_surface)",
+      "type": "frame",
+      "children": [
+        {
+          "id": "5c4e3d72",
+          "width": "fill_container",
+          "type": "frame",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            64,
+            80,
+            32,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "id": "b103b4e0",
+              "fill": "linear-gradient(135deg, rgba(45,212,191,0.15), rgba(163,230,53,0.15))",
+              "cornerRadius": 20,
+              "type": "frame",
+              "layout": "horizontal",
+              "padding": [
+                6,
+                16,
+                6,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "7c3e697f",
+                  "type": "text",
+                  "content": "THE STACK",
+                  "fontSize": 12,
+                  "fontWeight": 600,
+                  "color": "var(text_primary)",
+                  "letterSpacing": 2,
+                  "textTransform": "uppercase"
+                }
+              ]
+            },
+            {
+              "id": "6e4f22ab",
+              "type": "text",
+              "content": "Built With Modern Tech",
+              "fontSize": 48,
+              "fontWeight": 900,
+              "fontFamily": "Inter",
+              "color": "var(text_heading)"
+            },
+            {
+              "id": "aad8dea5",
+              "type": "text",
+              "content": "A carefully curated set of cutting-edge tools for building fast, type-safe, and beautiful web experiences.",
+              "fontSize": 18,
+              "fontWeight": 400,
+              "color": "var(text_body)",
+              "textAlign": "center"
+            }
+          ]
+        },
+        {
+          "id": "ef11e31c",
+          "width": "fill_container",
+          "type": "frame",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            0,
+            80,
+            64,
+            80
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 16,
+              "justifyContent": "center",
+              "id": "1d112d1b",
+              "children": [
+                {
+                  "id": "7fbe054c",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "children": [
+                    {
+                      "id": "6a255254",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "type": "frame",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "id": "967b2a79",
+                          "type": "text",
+                          "content": "⚡",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2
+                        }
+                      ],
+                      "layout": "vertical"
+                    },
+                    {
+                      "id": "134a657b",
+                      "type": "text",
+                      "content": "TanStack Start",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)"
+                    },
+                    {
+                      "id": "da40ada4",
+                      "type": "text",
+                      "content": "Powers our SSR, file-based routing, server functions, and full-stack type safety",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center"
+                    }
+                  ]
+                },
+                {
+                  "id": "75a61a9d",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "children": [
+                    {
+                      "id": "edfb7adb",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "type": "frame",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "id": "ac78ffed",
+                          "type": "text",
+                          "content": "⚛️",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2
+                        }
+                      ],
+                      "layout": "vertical"
+                    },
+                    {
+                      "id": "836d7085",
+                      "type": "text",
+                      "content": "React 19",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)"
+                    },
+                    {
+                      "id": "e8eada6b",
+                      "type": "text",
+                      "content": "Drives our UI with Server Components and the React Compiler for zero-config optimization",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center"
+                    }
+                  ]
+                },
+                {
+                  "id": "fb2c042a",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "children": [
+                    {
+                      "id": "bc851ec2",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "type": "frame",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "id": "5bcde95d",
+                          "type": "text",
+                          "content": "🎨",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2
+                        }
+                      ],
+                      "layout": "vertical"
+                    },
+                    {
+                      "id": "d6948262",
+                      "type": "text",
+                      "content": "Tailwind + daisyUI",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_heading)"
+                    },
+                    {
+                      "id": "ffad7ce1",
+                      "type": "text",
+                      "content": "daisyUI provides our theme system (lemonade/abyss) with semantic utility classes on Tailwind v4",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 16,
+              "justifyContent": "center",
+              "id": "31dffb57",
+              "children": [
+                {
+                  "id": "a2f5d886",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "children": [
+                    {
+                      "id": "3ab753d2",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "type": "frame",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "id": "61a55da4",
+                          "type": "text",
+                          "content": "🚀",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2
+                        }
+                      ],
+                      "layout": "vertical"
+                    },
+                    {
+                      "id": "f9db1559",
+                      "type": "text",
+                      "content": "Vite",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_title)"
+                    },
+                    {
+                      "id": "2dd758a6",
+                      "type": "text",
+                      "content": "Handles HMR, dev server, and production bundling with optimized chunk splitting",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center"
+                    }
+                  ]
+                },
+                {
+                  "id": "772b3c5f",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "children": [
+                    {
+                      "id": "84acc764",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "type": "frame",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "id": "2dab773a",
+                          "type": "text",
+                          "content": "✨",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2
+                        }
+                      ],
+                      "layout": "vertical"
+                    },
+                    {
+                      "id": "e4f42f29",
+                      "type": "text",
+                      "content": "Motion",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_title)"
+                    },
+                    {
+                      "id": "a39faea9",
+                      "type": "text",
+                      "content": "Powers all page transitions, scroll-triggered reveals, and interactive micro-animations",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center"
+                    }
+                  ]
+                },
+                {
+                  "id": "1ee0eec4",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "type": "frame",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "children": [
+                    {
+                      "id": "6db4d8df",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "type": "frame",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "id": "76bee9ac",
+                          "type": "text",
+                          "content": "🔧",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2
+                        }
+                      ],
+                      "layout": "vertical"
+                    },
+                    {
+                      "id": "73bc43fa",
+                      "type": "text",
+                      "content": "Biome",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_title)"
+                    },
+                    {
+                      "id": "46f5c64d",
+                      "type": "text",
+                      "content": "Single tool for linting and formatting, replacing ESLint + Prettier across the monorepo",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 16,
+              "justifyContent": "center",
+              "id": "b455ea05",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "fc5b1579",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "979f7c5a",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "📖",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2,
+                          "id": "ecda96a7"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Storybook",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "adf2b50d"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Documents and tests every design-system component in isolation with visual regression",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "ff4a083e"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "9908116c",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "ea685fd6",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "🌐",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2,
+                          "id": "20975b1a"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Intlayer",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "b04390e8"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Handles EN/ES bilingual routing, locale detection, and component-level UI translations",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "8f158c6e"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "fabb29e0",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "d820253e",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "📝",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2,
+                          "id": "d9fb954d"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Content Collections",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "8329e977"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Type-safe markdown processing for blog articles with co-located images and frontmatter",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "45b3cf47"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "name": "About Section — Tablet",
+      "width": 768,
+      "height": 1200,
+      "fill": "var(bg_surface)",
+      "positionDirection": "right",
+      "positionPadding": 100,
+      "id": "41006d0d",
+      "children": [
+        {
+          "type": "frame",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            56,
+            48,
+            32,
+            48
+          ],
+          "alignItems": "center",
+          "id": "330a9400",
+          "children": [
+            {
+              "type": "frame",
+              "fill": "linear-gradient(135deg, rgba(45,212,191,0.15), rgba(163,230,53,0.15))",
+              "cornerRadius": 20,
+              "layout": "horizontal",
+              "padding": [
+                6,
+                16,
+                6,
+                16
+              ],
+              "alignItems": "center",
+              "id": "528c6b6a",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "THE STACK",
+                  "fontSize": 12,
+                  "fontWeight": 600,
+                  "color": "var(text_primary)",
+                  "letterSpacing": 2,
+                  "textTransform": "uppercase",
+                  "id": "044f2f80"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Built With Modern Tech",
+              "fontSize": 36,
+              "fontWeight": 900,
+              "fontFamily": "Inter",
+              "color": "var(text_heading)",
+              "textAlign": "center",
+              "id": "1ae850fa"
+            },
+            {
+              "type": "text",
+              "content": "A carefully curated set of cutting-edge tools for building fast, type-safe, and beautiful web experiences.",
+              "fontSize": 16,
+              "fontWeight": 400,
+              "color": "var(text_body)",
+              "textAlign": "center",
+              "id": "7d2fc2a5"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            0,
+            48,
+            56,
+            48
+          ],
+          "id": "77083f99",
+          "children": [
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 16,
+              "id": "2e8e229e",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "bad3c0d0",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "bf2fcff3",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "⚡",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "id": "f4ed2472"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "TanStack Start",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "ff91b51a"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Full-stack framework with SSR, routing & server functions",
+                      "fontSize": 12,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "d8b73f28"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "9a7e88e5",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "86d4110d",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "⚛️",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "id": "63615746"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "React 19",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "e22f2451"
+                    },
+                    {
+                      "type": "text",
+                      "content": "UI library with Server Components & the React Compiler",
+                      "fontSize": 12,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "c62b3bee"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "17afae1c",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "5fe17393",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "🎨",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "id": "aa5eb4b2"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Tailwind + daisyUI",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_heading)",
+                      "id": "fd1e1200"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Utility-first CSS with semantic component classes & theming",
+                      "fontSize": 12,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "11e032ae"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 16,
+              "id": "d8c3eae4",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "56b50c4e",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "e70dd711",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "⚡",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "id": "e3584e8c"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Vite",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_title)",
+                      "id": "ef41b165"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Lightning-fast build tool with HMR & optimized production bundles",
+                      "fontSize": 12,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "a0d2a6f6"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "41ba23f0",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "e355a67d",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "🎬",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "id": "9e69e12c"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Motion",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_title)",
+                      "id": "c340a2e1"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Production-grade animations for React with spring physics",
+                      "fontSize": 12,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "ff14a543"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "5914f352",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "bb7215d5",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "🔧",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "id": "3a286f7a"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Biome",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_title)",
+                      "id": "510a6343"
+                    },
+                    {
+                      "type": "text",
+                      "content": "All-in-one linter & formatter replacing ESLint + Prettier",
+                      "fontSize": 12,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "ef035290"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "layout": "horizontal",
+              "gap": 16,
+              "id": "a061efe7",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "3efdebf7",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "43594f32",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "📖",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2,
+                          "id": "1ddc4134"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Storybook",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "c291b97e"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Component docs & visual regression testing in isolation",
+                      "fontSize": 12,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "c7e9d5e4"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "ae3dec57",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "6e94face",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "🌐",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2,
+                          "id": "690a6f8d"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Intlayer",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "cc96abab"
+                    },
+                    {
+                      "type": "text",
+                      "content": "EN/ES bilingual routing & component translations",
+                      "fontSize": 12,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "568bbdfd"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "fill": "var(bg_card)",
+                  "cornerRadius": 16,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "backdropBlur": 12,
+                  "id": "21b45a01",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "var(bg_surface)",
+                      "cornerRadius": 12,
+                      "border": {
+                        "width": 1,
+                        "color": "var(border_card)",
+                        "style": "solid"
+                      },
+                      "layout": "vertical",
+                      "alignItems": "center",
+                      "justifyContent": "center",
+                      "id": "16023f78",
+                      "children": [
+                        {
+                          "type": "text",
+                          "content": "📝",
+                          "fontSize": 24,
+                          "textAlign": "center",
+                          "lineHeight": 1.2,
+                          "id": "330b9656"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "content": "Content Collections",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "e2795726"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Type-safe markdown for blog articles with co-located images",
+                      "fontSize": 12,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "textAlign": "center",
+                      "id": "6210ab7d"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "name": "About Section — Mobile",
+      "width": 375,
+      "height": 1200,
+      "fill": "var(bg_surface)",
+      "positionDirection": "right",
+      "positionPadding": 100,
+      "id": "cb68d8c6",
+      "children": [
+        {
+          "type": "frame",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            40,
+            24,
+            24,
+            24
+          ],
+          "alignItems": "center",
+          "id": "a0708161",
+          "children": [
+            {
+              "type": "frame",
+              "fill": "linear-gradient(135deg, rgba(45,212,191,0.15), rgba(163,230,53,0.15))",
+              "cornerRadius": 16,
+              "layout": "horizontal",
+              "padding": [
+                4,
+                12,
+                4,
+                12
+              ],
+              "alignItems": "center",
+              "id": "6f53f483",
+              "children": [
+                {
+                  "type": "text",
+                  "content": "THE STACK",
+                  "fontSize": 10,
+                  "fontWeight": 600,
+                  "color": "var(text_primary)",
+                  "letterSpacing": 2,
+                  "textTransform": "uppercase",
+                  "id": "0ac029d5"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Built With Modern Tech",
+              "fontSize": 26,
+              "fontWeight": 900,
+              "fontFamily": "Inter",
+              "color": "var(text_heading)",
+              "textAlign": "center",
+              "id": "a00222d4"
+            },
+            {
+              "type": "text",
+              "content": "Cutting-edge tools for fast, type-safe, and beautiful web experiences.",
+              "fontSize": 14,
+              "fontWeight": 400,
+              "color": "var(text_body)",
+              "textAlign": "center",
+              "id": "6023a3d6"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            0,
+            20,
+            32,
+            20
+          ],
+          "id": "86c57587",
+          "children": [
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "var(bg_card)",
+              "cornerRadius": 14,
+              "border": {
+                "width": 1,
+                "color": "var(border_card)",
+                "style": "solid"
+              },
+              "layout": "horizontal",
+              "gap": 14,
+              "padding": 16,
+              "alignItems": "center",
+              "id": "3b73a226",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "var(bg_surface)",
+                  "cornerRadius": 11,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "id": "da0d09fb",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "⚡",
+                      "fontSize": 22,
+                      "textAlign": "center",
+                      "id": "01e5b204"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "id": "bec00e3e",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "TanStack Start",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "1271d2ac"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Full-stack framework with SSR, routing & server functions",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "id": "92cded2f"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "var(bg_card)",
+              "cornerRadius": 14,
+              "border": {
+                "width": 1,
+                "color": "var(border_card)",
+                "style": "solid"
+              },
+              "layout": "horizontal",
+              "gap": 14,
+              "padding": 16,
+              "alignItems": "center",
+              "id": "a3112a2e",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "var(bg_surface)",
+                  "cornerRadius": 11,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "id": "b5bbeb7c",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "⚛️",
+                      "fontSize": 22,
+                      "textAlign": "center",
+                      "id": "73922659"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "id": "e424165c",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "React 19",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "b961d434"
+                    },
+                    {
+                      "type": "text",
+                      "content": "UI library with Server Components & the React Compiler",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "id": "5fbe6c59"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "var(bg_card)",
+              "cornerRadius": 14,
+              "border": {
+                "width": 1,
+                "color": "var(border_card)",
+                "style": "solid"
+              },
+              "layout": "horizontal",
+              "gap": 14,
+              "padding": 16,
+              "alignItems": "center",
+              "id": "14e3063e",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "var(bg_surface)",
+                  "cornerRadius": 11,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "id": "11c7858c",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "🎨",
+                      "fontSize": 22,
+                      "textAlign": "center",
+                      "id": "6365a108"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "id": "23f27790",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Tailwind + daisyUI",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_heading)",
+                      "id": "d7609c3d"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Utility-first CSS with semantic component classes & theming",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "id": "1422144b"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "var(bg_card)",
+              "cornerRadius": 14,
+              "border": {
+                "width": 1,
+                "color": "var(border_card)",
+                "style": "solid"
+              },
+              "layout": "horizontal",
+              "gap": 14,
+              "padding": 16,
+              "alignItems": "center",
+              "id": "4240f572",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "var(bg_surface)",
+                  "cornerRadius": 11,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "id": "3ac6989b",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "⚡",
+                      "fontSize": 22,
+                      "textAlign": "center",
+                      "id": "35e7fe12"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "id": "79012c29",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Vite",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_title)",
+                      "id": "a79d2c31"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Lightning-fast build tool with HMR & optimized production bundles",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "id": "eb38a98d"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "var(bg_card)",
+              "cornerRadius": 14,
+              "border": {
+                "width": 1,
+                "color": "var(border_card)",
+                "style": "solid"
+              },
+              "layout": "horizontal",
+              "gap": 14,
+              "padding": 16,
+              "alignItems": "center",
+              "id": "6b734b55",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "var(bg_surface)",
+                  "cornerRadius": 11,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "id": "c6726f5e",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "🎬",
+                      "fontSize": 22,
+                      "textAlign": "center",
+                      "id": "7c6a1e1b"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "id": "fe4de527",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Motion",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_title)",
+                      "id": "e07b52b0"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Production-grade animations for React with spring physics",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "id": "6dcf1fc3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "var(bg_card)",
+              "cornerRadius": 14,
+              "border": {
+                "width": 1,
+                "color": "var(border_card)",
+                "style": "solid"
+              },
+              "layout": "horizontal",
+              "gap": 14,
+              "padding": 16,
+              "alignItems": "center",
+              "id": "81228e5d",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "var(bg_surface)",
+                  "cornerRadius": 11,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "id": "705fbd6c",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "🔧",
+                      "fontSize": 22,
+                      "textAlign": "center",
+                      "id": "ec53f021"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "id": "8e23e01f",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Biome",
+                      "fontSize": 14,
+                      "fontWeight": 800,
+                      "color": "var(text_title)",
+                      "id": "96d4fc27"
+                    },
+                    {
+                      "type": "text",
+                      "content": "All-in-one linter & formatter replacing ESLint + Prettier",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "id": "95f2feeb"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "var(bg_card)",
+              "cornerRadius": 14,
+              "border": {
+                "width": 1,
+                "color": "var(border_card)",
+                "style": "solid"
+              },
+              "layout": "horizontal",
+              "gap": 14,
+              "padding": 16,
+              "alignItems": "center",
+              "id": "53553fd2",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "var(bg_surface)",
+                  "cornerRadius": 11,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "id": "75b6f93b",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "📖",
+                      "fontSize": 22,
+                      "textAlign": "center",
+                      "id": "2a95b79c"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "id": "5d97fe26",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Storybook",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "aa0302e4"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Component docs & visual regression testing in isolation",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "id": "a0ae83e2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "var(bg_card)",
+              "cornerRadius": 14,
+              "border": {
+                "width": 1,
+                "color": "var(border_card)",
+                "style": "solid"
+              },
+              "layout": "horizontal",
+              "gap": 14,
+              "padding": 16,
+              "alignItems": "center",
+              "id": "9fbd2057",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "var(bg_surface)",
+                  "cornerRadius": 11,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "id": "601a2fae",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "🌐",
+                      "fontSize": 22,
+                      "textAlign": "center",
+                      "id": "e3691145"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "id": "acb7ddad",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Intlayer",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "b4a2c79b"
+                    },
+                    {
+                      "type": "text",
+                      "content": "EN/ES bilingual routing & component translations",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "id": "ac791614"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "width": "fill_container",
+              "fill": "var(bg_card)",
+              "cornerRadius": 14,
+              "border": {
+                "width": 1,
+                "color": "var(border_card)",
+                "style": "solid"
+              },
+              "layout": "horizontal",
+              "gap": 14,
+              "padding": 16,
+              "alignItems": "center",
+              "id": "cfc73063",
+              "children": [
+                {
+                  "type": "frame",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "var(bg_surface)",
+                  "cornerRadius": 11,
+                  "border": {
+                    "width": 1,
+                    "color": "var(border_card)",
+                    "style": "solid"
+                  },
+                  "layout": "vertical",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "id": "a64bbab6",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "📝",
+                      "fontSize": 22,
+                      "textAlign": "center",
+                      "id": "5f063fcc"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "id": "1f5891ce",
+                  "children": [
+                    {
+                      "type": "text",
+                      "content": "Content Collections",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "color": "var(text_title)",
+                      "id": "34fd562d"
+                    },
+                    {
+                      "type": "text",
+                      "content": "Type-safe markdown for blog articles with co-located images",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "color": "var(text_muted)",
+                      "id": "d2cf3061"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
